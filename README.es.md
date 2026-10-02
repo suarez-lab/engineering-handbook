@@ -18,6 +18,7 @@ desplegar.
 
 | Entrada | Lección |
 |---|---|
+| [`accepted-is-not-delivered`](accepted-is-not-delivered/README.es.md)<br><sub>`messaging` · `correctness` · `2026`</sub> | Un `200` de una pasarela de mensajería no es entrega — valida el destinatario donde lo guardas |
 | [`bounded-agent-loops`](bounded-agent-loops/README.es.md)<br><sub>`agent-loops` · `correctness` · `2026`</sub> | Un guard de deduplicación que solo mira el histórico no puede ver el duplicado que está creando ahora mismo |
 | [`chrome-headless-pdf-fixed-footer`](chrome-headless-pdf-fixed-footer/README.es.md)<br><sub>`chrome-headless` · `correctness` · `2026`</sub> | Un `bottom` negativo empuja el pie fijo *hacia dentro* del contenido, no fuera de la página |
 | [`cloudrun-job-vs-service`](cloudrun-job-vs-service/README.es.md)<br><sub>`cloud-run` · `cloud-scheduler` · `data loss` · `2026`</sub> | Un Service de Cloud Run que responde antes de terminar no es una ejecución durable |
@@ -29,6 +30,8 @@ desplegar.
 | [`gemini-zod-schema-pipeline`](gemini-zod-schema-pipeline/README.es.md)<br><sub>`gemini` · `correctness` · `2026`</sub> | Tres esquemas describen una misma respuesta, y el más estricto gana en silencio |
 | [`jest-promisify-mock-pattern`](jest-promisify-mock-pattern/README.es.md)<br><sub>`jest` · `node` · `correctness` · `2026`</sub> | `promisify` captura la referencia a la función al importar — tu mock llega tarde |
 | [`llm-output-field-normalization`](llm-output-field-normalization/README.es.md)<br><sub>`llm` · `correctness` · `2026`</sub> | El modelo es una cuarta ruta de código, y tu formateador no se ejecuta en ella |
+| [`secret-with-trailing-newline`](secret-with-trailing-newline/README.es.md)<br><sub>`secret-manager` · `correctness` · `2026`</sub> | Un secreto guardado con un salto de línea final pasa todas las comprobaciones y falla en producción |
+| [`secrets-flag-replaces-the-list`](secrets-flag-replaces-the-list/README.es.md)<br><sub>`cloud-run` · `outage` · `2026`</sub> | `--set-secrets` reemplaza la lista entera — un despliegue puede borrar en silencio todos los demás secretos |
 | [`systematic-debugging`](systematic-debugging/README.es.md)<br><sub>`node` · `outage` · `2026`</sub> | Cinco deploys fallaron con un mensaje de error cierto, preciso y que apuntaba al sitio equivocado |
 
 ---
